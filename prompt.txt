@@ -1,0 +1,12 @@
+La tarea a realizar mediante ChatGPT implica desarrollar una aplicación web con Streamlit que gestione y visualice una base de datos de Pokémon. La aplicación debe ser capaz de leer datos de un archivo pokemon.csv y ofrecer interfaces de usuario diferenciadas según el tipo de usuario. A continuación, se detallan los componentes clave de esta tarea:
+Preparar un entorno Python con las bibliotecas necesarias, incluyendo Streamlit para desarrollo web y Pandas para el manejo de datos
+Configurar la aplicación para leer el archivo pokemon.csv, ubicado en un directorio accesible.
+Realizar un análisis exploratorio de los datos para determinar las visualizaciones y estadísticas relevantes
+Implementar una interfaz de usuario que incluya autenticación para dos tipos de usuarios: administrador ("leonardo") y usuario normal ("ruby").
+El usuario "leonardo" debe tener acceso a un dashboard de administrador con visualizaciones de todos los tipos de Pokémon
+El usuario "ruby" debe tener acceso limitado a dashboards que solo muestren información sobre Pokémon de tipo normal basado en un conteo de datos según la generación.
+Desarrollar gráficos y tablas para visualizar las estadísticas de Pokémon, utilizando herramientas como Matplotlib o Seaborn.
+Verificar el correcto funcionamiento de la aplicación en diferentes escenarios.
+Optimizar la usabilidad y el rendimiento de la aplicación.
+Documentar el proceso de desarrollo y las instrucciones de uso de la aplicación.
+Preparar la aplicación para su despliegue en un entorno adecuado, asegurando la escalabilidad y seguridad

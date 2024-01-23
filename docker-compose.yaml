@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  auto-gpt:
+    image: leonardos37/leoreports:leoreports-v1.0
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    profiles: ["exclude-from-up"]
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs

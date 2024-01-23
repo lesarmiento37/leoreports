@@ -1,1 +1,4 @@
 # leoreports
+LeoReports es una aplicación web avanzada diseñada para manejar de manera eficiente y segura una base de datos de usuarios. Su principal objetivo es otorgar o revocar permisos de manera granular, permitiendo a los usuarios acceder a dashboards que muestran información crucial de la compañía. Estos dashboards presentan los datos a través de gráficos intuitivos y dataframes, facilitando la interpretación y el análisis de la información.
+
+Para lograr este objetivo se crea una imagen personalizada para crear el entorno de autogpt con los paquetes requeridos por la aplicación, posteriormente se aprovisiona el servidor de autogpt con el docker-compose.yml donde se define la arquitectura de autogpt.
